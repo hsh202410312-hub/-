@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Pretendard','Malgun Gothic',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#dff6ff,#f8fbff);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:90%;
+    max-width:450px;
+    background:white;
+    border-radius:25px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+h1{
+    color:#3c82f6;
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:35px;
+    font-size:18px;
+}
+
+.student-list{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.student-btn{
+    border:none;
+    border-radius:18px;
+    padding:18px;
+    font-size:24px;
+    cursor:pointer;
+    transition:.3s;
+    background:#eef7ff;
+}
+
+.student-btn:hover{
+    transform:scale(1.05);
+    background:#cfe8ff;
+}
+
